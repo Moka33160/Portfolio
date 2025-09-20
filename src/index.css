@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Migra';
+    src: url('/fonts/Migra-Extrabold.woff2') format('woff2'),
+         url('/fonts/Migra-Extralight.woff') format('woff');
+    font-weight: 800; /* Extrabold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Migra';
+    src: url('/fonts/Migra-Extralight.woff2') format('woff2'),
+         url('/fonts/Migra-Extralight.woff') format('woff');
+    font-weight: 200; /* Extralight */
+    font-style: normal;
+  }
+
+.font-migra {
+    font-family: 'Migra', serif;
+  }
+  
+  .blur-custom {
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+  }
+
+
